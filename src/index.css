@@ -1,13 +1,84 @@
-body {
+/* Basic Styles */
+a{
+  text-decoration: none;
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Arial";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: lightseagreen;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 18px;
+  text-decoration: none;
+  padding: 8px;
+}
+.navbar a:hover {
+  color: lightseagreen;
+}
+.content {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* fighter-preview */
+.fighter-preview {
+  padding: 20px 96px;
+  margin: 20px 0;
+}
+
+.fighter-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.fighter-preview h2 {
+  font-size: 40px;
+  color: lightseagreen;
+  margin-bottom: 10px;
+}
+/* create new blog form */
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: lightseagreen;
+  margin-bottom: 40px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: lightseagreen;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }

@@ -1,0 +1,16 @@
+{
+    "Fighters": [
+
+        {"name": "Goku",
+        "body": "A saiyan sent to Earth at his time of birth",
+        "techniques": "Kamehameha",
+        "fighterId": 1
+        },
+        {"name": "Krillin",
+        "body": "Originally from the shaolin temple, he fled to train under master roshi",
+        "techniques": "Kienzan",
+        "fighterId": 2
+        }
+        
+    ]
+}
